@@ -1,0 +1,30 @@
+# Generated build and release artifacts
+/build/
+/dist/
+/out/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Local development state
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.qmlprofiler
+*.qtd
+*.user
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+
+# Private workstation material and historical snapshots
+/private/
+/local-state/
+/backups/
+/material-existente-*/
