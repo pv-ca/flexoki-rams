@@ -14,7 +14,7 @@ Rams refers to [Dieter Rams and his principles of good design](https://www.vitso
 
 ## Design goals
 
-- A consistent dark material across the top panel, dock, menus and popups.
+- Consistent materials across the top panel, dock, menus and popups in both light and dark variants.
 - Rounded shapes, clear hierarchy, readable states and contained hover highlights.
 - A dedicated icon family with consistent application-tile geometry.
 - Independent dock height, icon size and hover magnification settings.
@@ -34,6 +34,20 @@ Rams refers to [Dieter Rams and his principles of good design](https://www.vitso
 | KWin integration | Small behavior components where necessary |
 
 Breeze is the foundation. Missing Plasma Style artwork can use its native fallback. Application styling and window decoration will reuse Breeze wherever it meets the approved design.
+
+## Light and dark variants
+
+Both variants are planned for the first usable release. Flexoki-Rams Light will use the palette's warm paper tones, while Flexoki-Rams Dark will use its dark backgrounds. They will share the same icon geometry, spacing and behavior, with colors and contrast reviewed for each variant.
+
+The installer will let users choose light, dark or both. Switching appearance should preserve pinned applications, dock sizing and the desktop layout. Automatic switching is not part of the initial scope.
+
+## Installation
+
+Installation is being designed around a single script, following the simple download-and-install approach of [MacTahoe GTK](https://github.com/vinceliuice/MacTahoe-gtk-theme), adapted to KDE Plasma.
+
+The planned flow is to download a release or clone this repository, run `install.sh`, and choose light, dark or both variants. Installation will default to the current user's theme directories, check required dependencies and provide an uninstall option. Applying appearance will remain separate from replacing the desktop layout.
+
+The installer is not implemented yet. Ready-to-run commands and supported distribution instructions will accompany the first installable release. See the [installation plan](docs/INSTALLATION.md).
 
 ## Repository layout
 

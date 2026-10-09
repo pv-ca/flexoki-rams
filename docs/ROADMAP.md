@@ -14,7 +14,8 @@
 
 ## Appearance
 
-- [ ] Implement the complete Flexoki semantic color scheme.
+- [ ] Implement complete light and dark Flexoki semantic color schemes.
+- [ ] Review contrast and interaction states in both variants.
 - [ ] Build a minimal Plasma Style with Breeze fallback.
 - [ ] Align panels, popups, notifications, tooltips and interaction states.
 
@@ -27,6 +28,8 @@
 ## Packaging
 
 - [ ] Assemble the Global Theme from tested components.
+- [ ] Package light and dark appearance selections while sharing common resources.
+- [ ] Implement the simple installer, variant selection and scoped uninstall workflow.
 - [ ] Measure resource use against Breeze and record results.
 - [ ] Test a supported-version matrix and recovery procedures.
 - [ ] Resolve licensing and credits, then publish the first usable release.

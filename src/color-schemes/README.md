@@ -1,3 +1,3 @@
 # Color schemes
 
-Add the complete `FlexokiRamsDark.colors` scheme after semantic colors and states have been reviewed. Starting design tokens alone are not a complete KDE color scheme.
+Add complete `FlexokiRamsLight.colors` and `FlexokiRamsDark.colors` schemes after semantic colors and states have been reviewed in both variants. Starting design tokens alone are not complete KDE color schemes.

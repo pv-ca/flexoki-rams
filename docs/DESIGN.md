@@ -2,7 +2,7 @@
 
 Flexoki-Rams combines the Flexoki palette with clarity, restraint and a carefully composed desktop. Apple-inspired rounded surfaces and subtle depth inform the appearance; KDE remains the implementation foundation.
 
-## Initial material tokens
+## Initial dark material tokens
 
 | Role | Initial color |
 |---|---|
@@ -17,6 +17,8 @@ Flexoki-Rams combines the Flexoki palette with clarity, restraint and a carefull
 | Accent | `#4385BE` |
 
 These are starting tokens, not a complete KDE color scheme. Selection, disabled and inactive states require their own contrast review. Transparency and the background underneath affect the visible result.
+
+A light variant using Flexoki's warm paper tones is also planned. It shares the dark variant's geometry and behavior; its complete semantic color mapping and contrast remain to be reviewed.
 
 ## Visual acceptance
 
